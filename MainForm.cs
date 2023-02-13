@@ -51,9 +51,7 @@ namespace AlarmClock
         /// <param name="e"></param>
         private void Execute(object sender, System.Timers.ElapsedEventArgs e)
         {
-            string message = "你已经连续工作 " + promptInterval.Value + " 分钟了，\n请注意休息！";
-            MessageBox.Show(message, "温馨提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, MessageBoxDefaultButton.Button1, MessageBoxOptions.ServiceNotification);
-
+            new TipsForm().ShowDialog();
             timer.Stop();
             if (disposable.Checked)
             {
