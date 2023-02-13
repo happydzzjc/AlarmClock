@@ -1,0 +1,464 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="repeat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 90</value>
+  </data>
+  <data name="repeat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="repeat.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="repeat.Text" xml:space="preserve">
+    <value>周期执行（每隔指定分钟数提示一次）</value>
+  </data>
+  <data name="&gt;&gt;repeat.Name" xml:space="preserve">
+    <value>repeat</value>
+  </data>
+  <data name="&gt;&gt;repeat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;repeat.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;repeat.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="disposable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 60</value>
+  </data>
+  <data name="disposable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 24</value>
+  </data>
+  <data name="disposable.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="disposable.Text" xml:space="preserve">
+    <value>执行一次（提示一次后需要重新启动）</value>
+  </data>
+  <data name="&gt;&gt;disposable.Name" xml:space="preserve">
+    <value>disposable</value>
+  </data>
+  <data name="&gt;&gt;disposable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;disposable.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;disposable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="promptInterval.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 26</value>
+  </data>
+  <data name="promptInterval.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="promptInterval.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;promptInterval.Name" xml:space="preserve">
+    <value>promptInterval</value>
+  </data>
+  <data name="&gt;&gt;promptInterval.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;promptInterval.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;promptInterval.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="stop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>131, 120</value>
+  </data>
+  <data name="stop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="stop.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="stop.Text" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="&gt;&gt;stop.Name" xml:space="preserve">
+    <value>stop</value>
+  </data>
+  <data name="&gt;&gt;stop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stop.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;stop.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="start.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 120</value>
+  </data>
+  <data name="start.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="start.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="start.Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="&gt;&gt;start.Name" xml:space="preserve">
+    <value>start</value>
+  </data>
+  <data name="&gt;&gt;start.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;start.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;start.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 28</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>多少分钟后提醒：</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 162</value>
+  </data>
+  <data name="groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupBox.Text" xml:space="preserve">
+    <value>tips</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Name" xml:space="preserve">
+    <value>groupBox</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>28, 28</value>
+  </metadata>
+  <data name="notifyIcon1.BalloonTipText" xml:space="preserve">
+    <value>小闹钟</value>
+  </data>
+  <data name="notifyIcon1.BalloonTipTitle" xml:space="preserve">
+    <value>小闹钟</value>
+  </data>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 28</value>
+  </metadata>
+  <data name="还原ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="还原ToolStripMenuItem.Text" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="退出ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="退出ToolStripMenuItem.Text" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 48</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9qn4H/aqD//2mfVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/aZ9U/2qg//9qoasAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2qg1f9qoP//aqDNAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9poL//aqD//2qg//9m
+        oCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ap+B/2qg//9qoP//aaBmAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/aJ9A/2qg//9q
+        oP//aqCzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9woxj/aqDl/2qg//9q
+        oM0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9q
+        oIn/aqD//2qg//9roUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9q
+        n4H/aqD//2qhqwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA/2qfgf9qoP//aqGrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9poyYAAAAAAAAAAAAAAAAAAAAA02r/RtVp/4XVav+d02r/tdRq/7PUa/+Z02r/gdNq
+        /zoAAAAAAAAAAAAAAAAAAAAA/2agIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRdP8K02v/etRq/93Uav//1Gr//9Rq///Uav//1Gr//9Rq
+        ///Uav//1Gr//9Rq/9vTa/960XT/CgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Wn/VNNq/9PUav//1Gr//9Rq///Uav//1Gr//9Rp
+        /+HUaf/h1Gr//9Rq///Uav//1Gr//9Rq///Tav/T1Wn/VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANVp/1TUav//1Gr//9Rq///Tav/r02v/n9Np
+        /2jXa/8mAAAAAAAAAADXa/8m02n/aNNr/5/Uav/v1Gr//9Rq///Uav//1Wn/VAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADTav+B1Gr//9Rq///Uav//1Gr/ldNt
+        /yIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANNq/yjUaf+t1Gr//9Rq///Uav//1Wn/VAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Gv/atRq///Uav//1Gr//9No
+        /0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADWa/9o1Gr//9Rq
+        ///Uav//1Wn/VAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANhs/yDUav/p1Gr//9Rq
+        ///Xa/8mAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADVaf9s1Gr//9Rq///Uav/j0mn/EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Wr/kdRq
+        ///Uav//02r/qQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADUaf+/1Gr//9Rq///Va/9uAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM5r
+        /x7Uav//1Gr//9Rq/+PYYv8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANVq/yTTav/r1Gr//9Rr/8kAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA02n/XNRq///Uav//1mv/cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANNq/3TUav//1Gr//9No/0AAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAADUav+r1Gr//9Rq///YbP80AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA02r/RtRq///Uav//02r/owAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANVq/9PUav//1Gv/6QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP9solT/aaBm/2ifQP9on0D/aJ9A/2ifQP9on0D/apUMAAAAAAAAAADTb/8W1Gr//9Rq
+        ///Vav/TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Gr/7dRq///Ua/+tAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/aKBa/2qg//9qoP//aqD//2qg//9qoP//aqD//2qg//9poL8AAAAAAAAAAAAA
+        AADUa//h1Gr//9Rq/+0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUaf/51Gr//9Vq/5EAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9qoJH/aqD//2qg//9qoP//aqD//2qg//9qoP//aqD//2mgvwAA
+        AAAAAAAAAAAAANRq/83Uav//1Gn/+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANRq/9/Uav//1Gn/0QAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2qfgf9poP//aqD//2mfwf9qn4H/ap+B/2qfgf9q
+        n4EAAAAAAAAAAAAAAAAAAAAA1Gr/+dRq///Uav/fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA02r/x9Rq
+        ///Uav//1nD/GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/ap+B/2qg//9qoP//ap+BAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANJp/zLUav//1Gr//9Nq/8cAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADVav+L1Gr//9Rq///Wav9WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP9qn4H/aqD//2qg//9q
+        n4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Wr/YNRq///Uav//02v/egAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAANNq/0bUav//1Gr//9Np/5sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/2qfgf9q
+        oP//aqD//2qfgQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADVav+d1Gr//9Rr//nTav8cAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANRq/8nUav//1Gr//9Jr/z4AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/ap+B/2qg//9qoP//ap+BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA12r/UtRq///Uav//1Wr/nQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Gr/WNRq///Uav//1Gv/3QAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/aqDV/2qg1QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANtt/wbUav//1Gr//9Rq
+        ///TaP9AAAAAAAAAAAAAAAAAAAAAAAAAAAD/aZ9U/2mgMgAAAAAAAAAA1Gn/rdRq///Uav//02r/gQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Gr/ydRq
+        ///Uav//1Gr/qwAAAAAAAAAA/2qflf9qn4EAAAAAAAAAAP9qoOX/aqD//2qfeAAAAADSaf8Q1Gr/9dRq
+        ///Uav//1Gr/5dNr/1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA1Wr/ZtRr
+        //vUav//1Gr//9Vq/8kAAAAAAAAAAP9qoOX/aqD//2qg/wAAAAAAAAAA/2ugxf9qoP//aqD//2qeHAAA
+        AADVaP8w1Gr//9Rq///Uav//1Gr//9Rp/5XTav8oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA02r/KNVq
+        /5nUav//1Gr//9Rq///Uaf/zAAAAAAAAAAD/ap+B/2qg//9qoP//a6G9AAAAAAAAAAD/bKBO/2qg//9q
+        oP//aqD//2uhJgAAAADSaf8i1Wr/w9Rq///Uav//1Gr//9Rq///Uav/X1Gr/m9Rq/17Uav9e1Gr/m9Rq
+        /9fUav//1Gr//9Rq///Uav//1Gr/vQAAAAAAAAAA/2qfZP9qoP//aqD//2qg9/9roTgAAAAAAAAAAAAA
+        AAD/ap+d/2qg//9qoP//aqD//2mfUAAAAAAAAAAA02r/btNq/9/Uav//1Gr//9Rq///Uav//1Gr//9Rq
+        ///Uav//1Gr//9Rq///Uav//02r/39Nq/24AAAAAAAAAAP9qn4H/aqD//2qg//9qoP//aqBwAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD/aqCX/2qg//9qoP//aaC/AAAAAAAAAAAAAAAA0Wj/FtZr/2jUav+31Gr//9Rq
+        ///Uav//1Gr//9Rq///Uav//1Gr/q9Rp/2bRaP8WAAAAAAAAAAAAAAAA/2qg//9qoP//aqD//2qhfgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/aqCF/2mgv/9qn4EAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADVVf8G02r/HNNs/zTSaf8y1nD/GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/aqGr/2qg3/9q
+        n4EAAAAAAAAAAAAAAAAAAAAA+f//n/j//x/4//8f/H/+P/x//j//+B///+AH//+AAf//B+D//B/4f/x/
+        /j/4//8f8P//H/H//4/z///P4///x+P//8fj/gHH4/wBx+P8A8fj/D/H4/w/z/H8P4/x/D+P+P5/H/h/
+        /hmcP/wxjg/wYccBgOPDwAOH4fAPj/H//48=
+</value>
+  </data>
+  <data name="notifyIcon1.Text" xml:space="preserve">
+    <value>小闹钟</value>
+  </data>
+  <data name="notifyIcon1.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>284, 186</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        /hmcP/wxjg/wYccBgOPDwAOH4fAPj/H//48=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>小闹钟</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Name" xml:space="preserve">
+    <value>notifyIcon1</value>
+  </data>
+  <data name="&gt;&gt;notifyIcon1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;还原ToolStripMenuItem.Name" xml:space="preserve">
+    <value>还原ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;还原ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;退出ToolStripMenuItem.Name" xml:space="preserve">
+    <value>退出ToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;退出ToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

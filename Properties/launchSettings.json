@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AlarmClock": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
