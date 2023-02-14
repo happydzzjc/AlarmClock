@@ -19,6 +19,8 @@ namespace AlarmClock
         private void MainForm_Load(object sender, EventArgs e)
         {
             notifyIcon1.Visible = false;
+            // 开机自启
+            new AutoStart().SetMeAutoStart(true);
         }
 
         /// <summary>
@@ -29,18 +31,17 @@ namespace AlarmClock
         /// <param name="e"></param>
         private void start_Click(object sender, EventArgs e)
         {
-            
+            // 组件属性
             start.Enabled = false;
             stop.Enabled = true;
             promptInterval.Enabled = false;
             disposable.Enabled = false;
             repeat.Enabled = false;
-
+            // 定时器
             timer = new System.Timers.Timer();
             timer.Interval = (double)promptInterval.Value * 60 * 1000;
             timer.AutoReset = repeat.Checked;
             timer.Elapsed += new System.Timers.ElapsedEventHandler(Execute);
-
             timer.Start();
         }
 

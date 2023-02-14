@@ -16,5 +16,10 @@ namespace AlarmClock
         {
             InitializeComponent();
         }
+
+        private void TipsForm_Load(object sender, EventArgs e)
+        {
+            this.TopMost = true;
+        }
     }
 }
